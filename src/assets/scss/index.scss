@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter-VariableFont_slnt,wght.woff2') format("woff2-variations");
+  font-display: swap;
+  font-weight: 100 1000;
+  font-style: normal;
+}
+
+body {
+  font-family: Inter, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
